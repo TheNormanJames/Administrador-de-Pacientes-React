@@ -1,6 +1,5 @@
 import { usePatientStore } from '../store';
 import PatientDetail from './PatientDetail';
-import { Patient } from '../types/index';
 
 export default function PatientList() {
   const patients = usePatientStore((state) => state.patients);
