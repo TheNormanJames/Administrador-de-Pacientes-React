@@ -1,21 +1,34 @@
-# Contador de Calorías - React & Typescript 👨‍💻
+# Administrador de Pacientes de Veterinaria | React - TypeScript - ReactHookForm - Zustand - Tailwind 👨‍💻
 
 > Éste es un proyecto que estuve realizando a base de un curso.
 
-Contador de Calorías es una aplicación web desarrollada con React que permite a los usuarios rastrear su ingesta y quema de calorías. Los usuarios pueden registrar sus comidas y actividades físicas a través de un formulario intuitivo. La aplicación mantiene una lista actualizada de todas las entradas y calcula automáticamente el total de calorías consumidas y quemadas 💪.
+Este proyecto es un Administrador de Pacientes de Veterinaria desarrollado con **React, TypeScript, ReactHookForm, Zustand y Tailwind CSS**. La aplicación permite gestionar información de pacientes mediante formularios con validación, donde se pueden registrar datos como el nombre del paciente, propietario, email, fecha de alta y síntomas. Cada paciente registrado se muestra en una lista con su información correspondiente, y se pueden editar o eliminar los registros. Además, la aplicación es completamente responsive y muestra notificaciones que indican el estado de las acciones realizadas, como la creación o eliminación de un paciente.
 
-[![Imagen del Proyecto de Rastreo de Calorías](proyectoCalorias.jpeg 'Imagen del Proyecto de Rastreo de Calorías')](https://react-calorie-tracker.vercel.app/)
+[![Imagen del Proyecto de Administrador de Pacientes de Veterinaria](Administrador_de_Pacientes_de_Veterinaria.jpg 'Imagen del Proyecto de Administrador de Pacientes de Veterinaria')](https://administrador-de-pacientes-react.vercel.app/)
 
-[Visita el Proyecto 🤳](https://react-calorie-tracker.vercel.app/)
+[Visita el Proyecto 🤳](https://administrador-de-pacientes-react.vercel.app/)
 
 ## ✨ Características clave:
 
-- **Registro de Comidas:** Los usuarios pueden agregar detalles sobre las comidas que han consumido, incluyendo la cantidad de calorías.
-- **Registro de Actividades:** Los usuarios también pueden registrar las actividades físicas que han realizado, especificando las calorías quemadas.
-- **Cálculos en Tiempo Real:** La aplicación muestra el total de calorías consumidas y quemadas, así como un valor positivo o negativo según si el usuario está siguiendo un patrón saludable.
-- **Interfaz Amigable:** La interfaz de usuario es sencilla y fácil de usar, lo que permite a los usuarios llevar un seguimiento efectivo de su ingesta calórica diaria.
+1. **Funcionalidades Principales**:
+   - **Registro de Pacientes**: Formulario con validación para ingresar datos del paciente.
+   - **Lista de Pacientes**: Visualización de todos los pacientes registrados con su información.
+   - **Edición de Pacientes**: Posibilidad de editar la información de un paciente existente.
+   - **Eliminación de Pacientes**: Opción para eliminar un paciente de la lista.
+   - **Notificaciones**: Indicadores visuales que muestran el estado de las acciones (creación, edición, eliminación).
+2. **Validación de Formularios**:
+   - Validación de campos obligatorios (nombre del paciente, propietario, email, fecha de alta, síntomas).
+   - Mensajes de error claros y específicos para cada campo.
+3. **Estado Global**:
+   - Gestión del estado de la aplicación utilizando Zustand para un manejo eficiente y escalable.
+4. **Interfaz de Usuario**:
+   - Diseño responsive utilizando Tailwind CSS para asegurar una experiencia óptima en dispositivos móviles y de escritorio.
+   - Estilo moderno y limpio con componentes reutilizables.
+5. **Experiencia de Usuario**:
+   - Interacciones intuitivas y fáciles de usar.
+   - Feedback inmediato mediante notificaciones.
 
-## ✨ Tecnologías usadas:
+## ✨ Tecnologías Utilizadas:
 
 - ![react](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=101010)
   - UseReducer
@@ -24,8 +37,6 @@ Contador de Calorías es una aplicación web desarrollada con React que permite 
 - ![typescript](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=101010)
 
 - ![tailwindcss](https://img.shields.io/badge/tailwindcss-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white&labelColor=101010)
-
-- LocalStorage
 
 ---
 
@@ -37,7 +48,7 @@ Contador de Calorías es una aplicación web desarrollada con React que permite 
 [![YouTube](https://img.shields.io/badge/YouTube-El_Profe_De_Idiomas-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=101010)](https://youtube.com/@elprofedeidiomas?sub_confirmation=1)
 [![Instagram](https://img.shields.io/badge/Instagram-@thenormanjames-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=101010)](https://instagram.com/the_norman_james)
 
-[![Logo Personal: The Norman James](Blanco_Con_Sombras.png 'Imagen del Proyecto de Lista de Órdenes')](https://thenormanjames.com/)
+[![Logo Personal: The Norman James](https://raw.githubusercontent.com/TheNormanJames/thenormanjames/master/the_norman_james_logo.png 'Logo Personal: The Norman James')](https://thenormanjames.com/)
 
 <!-- https://shields.io/badges -->
 <!-- https://simpleicons.org/ -->
