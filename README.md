@@ -1,4 +1,4 @@
-# Administrador de Pacientes de Veterinaria | React - TypeScript - ReactHookForm - Zustand - Tailwind 👨‍💻
+# Administrador de Pacientes de Veterinaria | `React - TypeScript - ReactHookForm - Zustand - Tailwind` 👨‍💻
 
 > Éste es un proyecto que estuve realizando a base de un curso.
 
