@@ -7,4 +7,4 @@ export type Patient = {
   symptoms: string;
 };
 
-export type DraftPacient = Omit<Patient, 'id'>;
+export type DraftPatient = Omit<Patient, 'id'>;
